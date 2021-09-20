@@ -5,11 +5,11 @@ public class BinarySearchCode {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 4, 7, 12, 33, 45, 68, 87};
         int target = 12;
-        int answer = Ceiling(arr, target);
+        int answer = BinarySearch(arr, target);
         System.out.println(answer);
     }
 
-    public static int Ceiling(int[] arr, int target) {
+    public static int BinarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
 
